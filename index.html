@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    
+    <h1>War Games</h1>
+    <script src="classes.js"></script>
+    <script src="wargames.js"></script>
+    <script>
+        //start a new game by getting a deck of cards
+        let newGame = new Deck;
+
+        //get the two decks of cards -- randomized and put into two 'piles' one for each player
+        let theTwoSets =   newGame.dealCards();
+
+        //assign each player their name and portion of the deck of cards
+        let player1 = new Player('James Spencer',theTwoSets[0]);
+        let player2 = new Player('Tyler Wilhelm',theTwoSets[1]);
+
+        //now, sound the buzzer and let the two players go at it
+        //good luck to you both
+        //more luck to player1!!  We're rooting for you!!
+        playWar(player1,player2);
+    </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "war-games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "classes.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jspenceratty/WarGame.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jspenceratty/WarGame/issues"
+  },
+  "homepage": "https://github.com/jspenceratty/WarGame#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1"
+  }
+}
